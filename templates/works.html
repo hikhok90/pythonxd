@@ -1,0 +1,44 @@
+{% extends 'layout.html' %} 
+{% block content %}
+
+
+<body>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style-work.css') }}">
+   <title>Work Information</title>
+
+
+    <div class="work-container">
+        <header>
+            <h1>My Work</h1>
+        </header>
+
+        <section class="work-info">
+            <div class="work-item">
+                <h2>I Currently Do not Work</h2>
+                <p>---</p>
+                <p>---</p>
+                <p>---</p>
+            </div>
+
+            <div class="work-item">
+                <h2>---</h2>
+                <p>---</p>
+                <p>---</p>
+                <p>---</p>
+            </div>
+
+            <div class="work-item">
+                <h2>---</h2>
+                <p>---</p>
+                <p>---</p>
+                <p>---</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+
+   
+{% endblock content %}

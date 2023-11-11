@@ -1,0 +1,35 @@
+{% extends 'layout.html' %} 
+{% block content %}
+
+
+<body>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style-contacts.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Contact Information</title>
+
+    <header>
+        <h1>Contact Information</h1>
+    </header>
+
+    <section class="contact-info">
+        <div class="info-item">
+            <h2>Email</h2>
+            <p><a href="mailto:info@example.com">jayveeiggo0@gmail.com</a></p>
+        </div>
+
+        <div class="info-item">
+            <h2>Phone</h2>
+            <p>09169645668</p>
+        </div>
+
+        <div class="info-item">
+            <h2>Address</h2>
+            <p>#3 Gregorio Street, Novaliches, Q.C</p>
+        </div>
+    </section>
+
+</body>
+
+
+
+{% endblock content %}

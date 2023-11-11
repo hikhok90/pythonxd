@@ -1,0 +1,26 @@
+{% extends 'layout.html' %} 
+{% block content %}
+
+<body>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style-touppercase.css') }}">
+    <title>String to Uppercase Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <div class="calculator-container">
+        <h1>Convert String to Uppercase</h1>
+
+        <form action='/touppercase' method="post">
+            <label for="inputString">Enter a string:</label>
+            <input type="text" id="inputString" name="inputString">
+            <input type="submit" value="Convert">
+        </form>
+
+        {% if result %}
+        <p class="result">Converted string: {{ result }}</p>
+        {% endif %}
+    </div>
+
+</body>
+
+
+{% endblock content %}

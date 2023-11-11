@@ -1,0 +1,40 @@
+body {
+    background-image: url('sim.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Agbalumo', sans-serif;
+    color: #99edc3;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 65px;
+    margin-top: 50px;
+}
+
+.box {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid #99edc3;
+    border-radius: 5px;
+}
+
+a {
+    color: #99edc3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#a4 {
+    margin-top: 50px;
+}
+
+
+
